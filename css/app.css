@@ -1,0 +1,14 @@
+/*
+
+app-template.css overrides
+
+remove this comment if used
+remove this file if not
+
+*/
+
+.filters li a {
+  text-transform: capitalize;
+  margin: -3px 3px 3px 3px;
+  display: inline-block;
+}
