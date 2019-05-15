@@ -1,17 +1,49 @@
-# TodoMVC App Template
+## TodoMVC App Template
+
+The demo project is built on Vue framework.
 
 > Template used for creating [TodoMVC](http://todomvc.com) apps
 
 ![](https://github.com/tastejs/todomvc-app-css/raw/master/screenshot.png)
 
 
-## Getting started
+### Getting started
 
-- Read the [Application Specification](https://github.com/tastejs/todomvc/blob/master/app-spec.md) before touching the template.
+The stack is built using [Parcel](https://parceljs.org/) so to get started all you have to do is:
 
-- Delete this file and rename `app-readme.md` to `readme.md` and fill it out.
+```sh
+# Install dependencies
+$ npm install
+# Serve the demo at localhost:1234
+$ npm run dev
+```
 
-- Clone this repo and install the dependencies with [npm](https://npmjs.com) by running: `npm install`.
+Other commands available are:
+
+```sh
+# Production build
+npm run build
+# Check linting for *.js,vue ext
+npm run eslint
+# Auto fix eslint
+npm run eslint:fix
+```
+
+### Learning Vue.js
+Here are some links you may find helpful:
+
+* [Official Guide](http://vuejs.org/guide/)
+* [API Reference](http://vuejs.org/api/)
+* [Vue Style Guide v2](https://vuejs.org/v2/style-guide/)
+* [Examples](http://vuejs.org/examples/)
+
+### Learning Vuex
+> Centralized State Management for Vue.js.
+
+![](https://raw.githubusercontent.com/vuejs/vuex/dev/docs/.vuepress/public/vuex.png)
+
+* [What is Vuex?](https://vuex.vuejs.org/)
+* [API Reference](https://vuex.vuejs.org/api/)
 
 
 ## License
