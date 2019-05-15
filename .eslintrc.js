@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     // add more generic rulesets here, such as:
-    'eslint:recommended',
+    // 'eslint:recommended',
     "plugin:vue/recommended",
   ],
   rules: {
@@ -15,6 +15,25 @@ module.exports = {
       },
       "svg": "always",
       "math": "always"
-    }]
+    }],
+    "semi": ["error", "always"],
+    "no-unexpected-multiline": "error",
+    "no-unreachable": "error",
+    "semi-style": ["error", "last"],
+    "vue/max-attributes-per-line": [
+      2,
+      {
+        "singleline": 4,
+      }
+    ],
+    "no-console": [
+      2,
+      {
+        "allow": [
+          "error",
+          "info"
+        ]
+      }
+    ]
   },
 };
